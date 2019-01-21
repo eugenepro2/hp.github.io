@@ -917,6 +917,10 @@ array-filter@~0.0.0:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/array-filter/-/array-filter-0.0.1.tgz#7da8cf2e26628ed732803581fd21f67cacd2eeec"
 
+array-find-index@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/array-find-index/-/array-find-index-1.0.2.tgz#df010aa1287e164bbda6f9723b0a96a1ec4187a1"
+
 array-flatten@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
@@ -990,6 +994,13 @@ autoprefixer@^9.3.1:
     postcss "^7.0.5"
     postcss-value-parser "^3.3.1"
 
+axios@^0.18.0:
+  version "0.18.0"
+  resolved "http://registry.npmjs.org/axios/-/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
+  dependencies:
+    follow-redirects "^1.3.0"
+    is-buffer "^1.1.5"
+
 babel-code-frame@^6.22.0, babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
@@ -1009,7 +1020,7 @@ babel-eslint@^10.0.1:
     eslint-scope "3.7.1"
     eslint-visitor-keys "^1.0.0"
 
-babel-helper-vue-jsx-merge-props@^2.0.3:
+babel-helper-vue-jsx-merge-props@^2.0.1, babel-helper-vue-jsx-merge-props@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-2.0.3.tgz#22aebd3b33902328e513293a8e4992b384f9f1b6"
 
@@ -1850,6 +1861,12 @@ debug@2.6.9, debug@^2.1.2, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
+debug@=3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  dependencies:
+    ms "2.0.0"
+
 debug@^3.1.0:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
@@ -1963,6 +1980,10 @@ dom-serializer@0:
   dependencies:
     domelementtype "~1.1.1"
     entities "~1.1.1"
+
+dom-walk@^0.1.0:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/dom-walk/-/dom-walk-0.1.1.tgz#672226dc74c8f799ad35307df936aba11acd6018"
 
 domain-browser@^1.1.1:
   version "1.2.0"
@@ -2502,6 +2523,12 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.1"
     readable-stream "^2.0.4"
 
+follow-redirects@^1.3.0:
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  dependencies:
+    debug "=3.1.0"
+
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -2569,6 +2596,10 @@ functional-red-black-tree@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
 
+gaspard@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/gaspard/-/gaspard-4.1.0.tgz#d413d9dc739d5844fa48765b01859cd63e54ac8a"
+
 gauge@~2.7.3:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-2.7.4.tgz#2c03405c7538c39d7eb37b317022e325fb018bf7"
@@ -2603,6 +2634,13 @@ glob@^7.0.3, glob@^7.0.5, glob@^7.1.2, glob@^7.1.3:
     minimatch "^3.0.4"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
+
+global@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/global/-/global-4.3.2.tgz#e76989268a6c74c38908b1305b10fc0e394e9d0f"
+  dependencies:
+    min-document "^2.19.0"
+    process "~0.5.1"
 
 globals@^11.0.1, globals@^11.1.0:
   version "11.8.0"
@@ -2705,6 +2743,10 @@ he@1.2.x, he@^1.1.0:
 hex-color-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/hex-color-regex/-/hex-color-regex-1.1.0.tgz#4c06fccb4602fe2602b3c93df82d7e7dbf1a8a8e"
+
+highlight.js@^9.10.0:
+  version "9.13.1"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.13.1.tgz#054586d53a6863311168488a0f58d6c505ce641e"
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -3107,6 +3149,10 @@ isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
 
+jquery@>=1.8.3, jquery@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+
 js-levenshtein@^1.1.3:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/js-levenshtein/-/js-levenshtein-1.1.4.tgz#3a56e3cbf589ca0081eb22cd9ba0b1290a16d26e"
@@ -3414,6 +3460,12 @@ mime@^2.0.3, mime@^2.3.1:
 mimic-fn@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
+
+min-document@^2.19.0:
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/min-document/-/min-document-2.19.0.tgz#7bd282e3f5842ed295bb748cdd9f1ffa2c824685"
+  dependencies:
+    dom-walk "^0.1.0"
 
 mini-css-extract-plugin@^0.4.4:
   version "0.4.4"
@@ -3864,6 +3916,12 @@ osenv@^0.1.4:
   dependencies:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
+
+owl.carousel@^2.3.4:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/owl.carousel/-/owl.carousel-2.3.4.tgz#6c53dc8d24304b790e4f27a1dc4a655e973ccdc9"
+  dependencies:
+    jquery ">=1.8.3"
 
 p-limit@^1.1.0:
   version "1.3.0"
@@ -4635,6 +4693,10 @@ process@^0.11.10:
   version "0.11.10"
   resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
 
+process@~0.5.1:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/process/-/process-0.5.2.tgz#1638d8a8e34c2f440a91db95ab9aeb677fc185cf"
+
 progress@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.1.tgz#c9242169342b1c29d275889c95734621b1952e31"
@@ -4710,6 +4772,13 @@ q@^1.1.2:
 qs@6.5.2:
   version "6.5.2"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
+
+query-string@^4.3.2:
+  version "4.3.4"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-4.3.4.tgz#bbb693b9ca915c232515b228b1a02b609043dbeb"
+  dependencies:
+    object-assign "^4.1.0"
+    strict-uri-encode "^1.0.0"
 
 querystring-es3@^0.2.0:
   version "0.2.1"
@@ -4803,7 +4872,7 @@ regenerator-runtime@^0.11.1:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
 
-regenerator-runtime@^0.12.0:
+regenerator-runtime@^0.12.0, regenerator-runtime@^0.12.1:
   version "0.12.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
 
@@ -5273,6 +5342,10 @@ stream-shift@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/stream-shift/-/stream-shift-1.0.0.tgz#d5c752825e5367e786f78e18e445ea223a155952"
 
+strict-uri-encode@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
+
 string-width@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-1.0.2.tgz#118bdf5b8cdc51a2a7e70d211e07e2b0b9b107d3"
@@ -5313,6 +5386,13 @@ strip-ansi@^4.0.0:
 strip-json-comments@~2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
+
+style-loader@^0.23.0:
+  version "0.23.1"
+  resolved "https://registry.yarnpkg.com/style-loader/-/style-loader-0.23.1.tgz#cb9154606f3e771ab6c4ab637026a1049174d925"
+  dependencies:
+    loader-utils "^1.1.0"
+    schema-utils "^1.0.0"
 
 style-resources-loader@^1.2.1:
   version "1.2.1"
@@ -5561,6 +5641,10 @@ uglifyjs-webpack-plugin@^1.2.4:
     webpack-sources "^1.1.0"
     worker-farm "^1.5.2"
 
+uid@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/uid/-/uid-0.0.2.tgz#5e4a5d4b78138b4f70f89fd3c76fc59aa9d2f103"
+
 unicode-canonical-property-names-ecmascript@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/unicode-canonical-property-names-ecmascript/-/unicode-canonical-property-names-ecmascript-1.0.4.tgz#2619800c4c825800efdd8343af7dd9933cbe2818"
@@ -5700,6 +5784,16 @@ uuid@^3.3.2:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
+v-owl-carousel@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/v-owl-carousel/-/v-owl-carousel-1.0.7.tgz#087a07d355ed2643c67f41189ac34129f5641ce6"
+  dependencies:
+    css-loader "^1.0.0"
+    file-loader "^2.0.0"
+    jquery "^3.3.1"
+    owl.carousel "^2.3.4"
+    style-loader "^0.23.0"
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -5714,6 +5808,15 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
+vue-carousel@^0.16.0-rc2:
+  version "0.16.0-rc2"
+  resolved "https://registry.yarnpkg.com/vue-carousel/-/vue-carousel-0.16.0-rc2.tgz#1d1aa0e14bada51428f23fe64580a156c77cce78"
+  dependencies:
+    global "^4.3.2"
+    regenerator-runtime "^0.12.1"
+    vue "^2.5.17"
+    vue-play "^3.2.1"
+
 vue-eslint-parser@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-2.0.3.tgz#c268c96c6d94cfe3d938a5f7593959b0ca3360d1"
@@ -5724,6 +5827,12 @@ vue-eslint-parser@^2.0.3:
     espree "^3.5.2"
     esquery "^1.0.0"
     lodash "^4.17.4"
+
+vue-gaspard@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/vue-gaspard/-/vue-gaspard-2.0.0.tgz#23dffffe0ac59433132aa5ce2a11d2703c52f24c"
+  dependencies:
+    gaspard "^4.0.0"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.1"
@@ -5751,6 +5860,33 @@ vue-no-ssr@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/vue-no-ssr/-/vue-no-ssr-1.0.0.tgz#169bdabfa2ca170c8979d94062d877a0479c3f10"
 
+vue-owl-carousel@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/vue-owl-carousel/-/vue-owl-carousel-2.0.3.tgz#5f011f75ef7dadb9fec589ccb371454c10cd4af1"
+  dependencies:
+    css-loader "^1.0.0"
+    file-loader "^2.0.0"
+    jquery "^3.3.1"
+    owl.carousel "^2.3.4"
+    style-loader "^0.23.0"
+
+vue-play@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/vue-play/-/vue-play-3.2.1.tgz#4bfed821d4e0977de4b6fa4c49b7f96e1141dd0e"
+  dependencies:
+    uid "0.0.2"
+    array-find-index "^1.0.2"
+    highlight.js "^9.10.0"
+    query-string "^4.3.2"
+    vue-router "^2.3.0"
+    vue-slim-modal "^0.3.0"
+    vuex "^2.2.1"
+    vuex-router-sync "^4.1.2"
+
+vue-router@^2.3.0:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-2.8.1.tgz#9833c9ee57ac83beb0269056fefee71713f20695"
+
 vue-router@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-3.0.1.tgz#d9b05ad9c7420ba0f626d6500d693e60092cc1e9"
@@ -5767,6 +5903,13 @@ vue-server-renderer@^2.5.17:
     resolve "^1.2.0"
     serialize-javascript "^1.3.0"
     source-map "0.5.6"
+
+vue-slim-modal@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/vue-slim-modal/-/vue-slim-modal-0.3.0.tgz#e9d84f60956d36a3b2760d5808edb2a9653d1d72"
+  dependencies:
+    babel-helper-vue-jsx-merge-props "^2.0.1"
+    object-assign "^4.1.0"
 
 vue-style-loader@^4.1.0:
   version "4.1.2"
@@ -5789,6 +5932,14 @@ vue-template-es2015-compiler@^1.6.0:
 vue@^2.5.17:
   version "2.5.17"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.5.17.tgz#0f8789ad718be68ca1872629832ed533589c6ada"
+
+vuex-router-sync@^4.1.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/vuex-router-sync/-/vuex-router-sync-4.3.2.tgz#604b61a377daaa68b2ef6e8e0326b2cad26f359e"
+
+vuex@^2.2.1:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/vuex/-/vuex-2.5.0.tgz#20f0265ade6c9a5ac6724a405d3ffdb4726c9741"
 
 vuex@^3.0.1:
   version "3.0.1"
